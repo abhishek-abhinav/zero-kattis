@@ -82,11 +82,15 @@ nav>h1 {
     margin: 1rem auto;
     background-color: lightgoldenrodyellow;
     padding: 0.5rem 1rem;
+    text-align: center;
 }
+/* .wrapper{
+    display: ;
+} */
 
 section {
     /* padding: 1rem; */
-    width: 40%;
+    width: 75vh;
     height: 75vh;
     background-color: black;
     display: grid;
@@ -117,9 +121,13 @@ section {
     border: 1px solid black;
     padding: 10px 20px;
     border-radius: 5px;
-    position: absolute;
-    top: 55%;
-    right: 20%;
+    /* position: absolute; */
+    /* top: 55%;
+    right: 20%; */
+    bottom: 50%;
+    left: 110%;
+    position: relative;
+
     cursor: pointer;
     font-weight: bolder;
     font-family: cursive;
@@ -133,6 +141,7 @@ section {
     flex-direction: column;
     justify-content: center;
     padding: 2rem;
+    text-align: justify;
 }
 .about h4{
     color: yellow;
@@ -148,6 +157,7 @@ section {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
 .copyright>p {
