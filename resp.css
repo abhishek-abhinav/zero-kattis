@@ -1,0 +1,50 @@
+main {
+    height: 90vh;
+    /* width: 100vw; */
+    /* min-height: 100vw */
+}
+
+/* @media screen and (max-width: 1600px) and (min-width: 700px) {
+    main {
+        height: 100vh;
+    }
+} */
+
+
+nav {
+    font-size: larger;
+    height: 3rem;
+}
+
+section {
+    width: 40vw;
+    height: 40vw;
+}
+@media screen and (max-width:700px) {
+    section {
+        width: 90vw;
+        height: 90vw;
+    }
+}
+
+.game {
+    justify-content: center;
+
+}
+
+
+#reset {
+    position: relative;
+    top: 5%;
+    /* font-size: 3rem; */
+    left: 40%;
+}
+
+.about {
+    height: auto;
+}
+
+.copyright>p {
+    font-size: 8px;
+    
+}
