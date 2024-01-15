@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tic Tac Toe</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="resp.css" media="screen and (max-width: 1300px)">
 </head>
 
 <body>
@@ -15,11 +16,12 @@
         </nav>
         <div class="container">
             <img src="https://upload.wikimedia.org/wikipedia/commons/7/7d/Tic-tac-toe-animated.gif" alt="Start"
-                height="400px">
+                >
             <button id="start">START GAME</button>
         </div>
         <div class="game hide">
             <div class="msg">❌, Lets Start!</div>
+            <div class="grp">
             <section>
                 <button class="box"></button>
                 <button class="box"></button>
@@ -32,6 +34,7 @@
                 <button class="box"></button>
             </section>
             <button id="reset" type="reset" disabled>RESET</button>
+        </div>
         </div>
     </main>
     <footer>
